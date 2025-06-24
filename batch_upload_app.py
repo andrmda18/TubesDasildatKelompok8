@@ -106,7 +106,7 @@ def show_batch_upload():
                 if task_type == "regresi":
                     st.markdown("#### ℹ️ Interpretasi Nilai Regresi (Per Pelanggan):")
                     st.markdown("""
-                    - 🔹 Nilai **< 10000** → Pelanggan dengan prediksi **rendah**, kemungkinan kurang aktif.
-                    - 🟡 Nilai **10000–30000** → Pelanggan dengan potensi **menengah**.
-                    - 🟢 Nilai **≥ 30001** → Pelanggan dengan prediksi **tinggi**, kemungkinan loyal.
+                    - 🔹 Nilai **< 5000** → Pelanggan dengan prediksi **rendah**, kemungkinan kurang aktif.
+                    - 🟡 Nilai **5001–10000** → Pelanggan dengan potensi **menengah**.
+                    - 🟢 Nilai **≥ 10001** → Pelanggan dengan prediksi **tinggi**, kemungkinan loyal.
                     """)
